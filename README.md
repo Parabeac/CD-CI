@@ -35,7 +35,7 @@ Low-Code/No-Code tools are designed to enable creators to build full-stack appli
 
 No-Code tools are often used by entrepreneurs to launch Minimum Viable Products (MVPs) and by small and mid-sized businesses to solve operational problems or support discrete marketing efforts. No-Code enthusiasts (sometimes called “devsumers”), may stitch together many No-Code tools in building applications. Examples of these tools are Bubble, Glideapps, Airtable, Zapier.
 
-Low-Code tools are frequently used by enterprise companies in which IT teams are creating internal tools or simple external applications on behalf of general business operations. These tools include Mendix, Vantiq, Unqork, Retool, etc. While many of the low-code providers have very similar tooling, such as an UI editor & low-code 'IDE' for writing logic, they often specialize in specific verticals. For example, Vantiq specializes in low-code applications made to connect to IoT devices.
+Low-Code tools are frequently used by enterprise companies in which IT teams are creating internal tools or simple external applications on behalf of general business operations. These tools include Mendix, Vantiq, Unqork, Retool, 8base, Canonic.dev, etc. While many of the low-code providers have very similar tooling, such as an UI editor & low-code 'IDE' for writing logic, they often specialize in specific verticals. For example, Vantiq specializes in low-code applications made to connect to IoT devices.
 
 ### Design-to-Code & Handoff Tools
 
