@@ -106,3 +106,33 @@ As CD/CI tools mature, they will reinvent bilateral communication between design
 ### The Opportunity
 
 The path forward is Continuous Design/Continuous Integration. CD/CI is not a replacement or a repudiation of Agile; in important ways it is Agile’s natural extension. Agile gave adaptive energy to the build and deploy stages of app development. CD/CI simply extends that backward to include the design stage as well. CD/CI, like Agile, integrates previously segmented workflows and embraces frequent iteration. In Agile’s case the process led to the development in recent decades of a fleet of new DevOps tools. CD/CI may mature in reverse; the true CD/CI tools that are just now appearing at Parabeac and elsewhere will lead the extension of process transformation in the design stage in ways that we, frankly, can only imagine. When CD/CI platforms become an integral part of automating developer workflows, the staggering 60% potential reduction in development costs may actually be a smaller long term benefit than the unshackled design creativity that can now be purely and seamlessly translated into code.
+
+# Addendum - Feb. 15, 2023
+
+A few months after the initial release of our CD/CI thesis on Github in 2021, our team presented a more detailed exposition at the DeveloperWeek Austin conference. Since then, the original thesis and research have remained highly pertinent, however, new insights have led us to make some updates and additions. This CD/CI Addendum will encompass our most recent perspectives.
+
+## Continuous Design & Continuous Integration through isolated code
+
+*Swagger* was the first company to standardize API development through the creation of the Open API Specification, which defined the way APIs would function and communicate. Prior to *Swagger*, the integration of APIs and their corresponding software development kits (SDKs) was a manual process, often requiring developers to write custom code to interface with the APIs. 
+Following the release of the Open API Specification in 2011, *Swagger* developed a code generator to streamline the integration process. *Swagger's approach to CD/CI for API SDKs included isolating the code entirely and making it unmodifiable by design changes to the API. This isolated code approach challenged the traditional notion of generating readable/quality code and led Parabeac to amend our approach. Instead of insisting on code readability, we now believe that code isolation allows prioritizing code accuracy and usability by the developer as the most effective path to real integration. 
+
+At Parabeac, we have been quantifying the potential of isolated code for CD/CI. We leveraged our own CD/CI tooling based on isolated code to gain insights into the development process and quickly discovered that code generation not only saves time, but also leads to more accurate implementations and a more scalable code base. 
+
+### Time savings
+
+To test the efficiencies, we timed a Flutter developer tasked with developing a simple and a complex component both with and without the Parabeac tool (using code isolation). The results showed that code generation for both types of components with the Parabeac tool took less than a minute, but the same developer needed 7-12 minutes to develop the simple component and 1-2 hours to develop the complex component when not using code generation.
+
+### Improved accuracy
+
+In the same session, the generated component accurately reflected the responsiveness of the Figma design, while the developer's implementation failed to do so.
+
+### Enhanced scalability
+
+Another benefit that emerged was the improved scalability of the code. The isolated code structure encourages developers to maintain a separation of concerns between their code and the UI code, which is considered best practice in the developer community.
+Of course, as generative technologies like GPT-3 continue to advance, it may become possible to achieve seamless integration between design processes and development by other means, but for now, we believe that "readable" or "quality" code remains too subjective a concept upon which to base an integration tool. We will continue to monitor technological developments in this field and be early adopters of any new advances.
+
+## *Relay* and the endorsement of CD/CI 
+
+In November 2022, Google Relay released a tool to streamline the design and integration process for applications built using Jetpack Compose. This development underscores the trend towards more efficient and streamlined workflows in UI/UX design and is the biggest market endorsement to date of the concepts undergirding Continuous Design/Continuous Integration. We believe continued advancements are inevitable. Adobe's $20 billion offer for Figma has opened the eyes of investors and technology companies to the market appetite for tools to make the design to development stage as efficient as earlier agile processes made the development to deployment stage.
+
+As software development continues to evolve, so will workflows. This is especially true for the design and integration of user interfaces and user experiences. It is encouraging to see that others in the industry are also recognizing the importance of these issues and building tools to address them. At Parabeac, we are dedicated to staying at the forefront of these developments and continuously exploring innovative solutions in this exciting new dev tool category.
